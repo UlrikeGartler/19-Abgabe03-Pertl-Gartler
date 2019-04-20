@@ -4,27 +4,39 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>at.fhj.iit</groupId>
+    <groupId>at.fhj.msd</groupId>
     <artifactId>Stack</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-	<developers>
-		<developer>
-		  <id>michaelulm</id>
-		  <name>Michael Ulm</name>
-		  <email>michael.ulm@fh-joanneum.at</email>
-		  <url>https://www.michael-ulm.at</url>
-		  <organization>FH JOANNEUM GmbH</organization>
-		  <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
-		  <roles>
-			<role>Lecturer</role>
-		  </roles>
-		  <timezone>Europe/Vienna</timezone>
-		  <properties>
-			<picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
-		  </properties>
-		</developer>     
-	</developers>
+    <developers>
+        <developer>
+            <id>JohannesPertl</id>
+            <name>Johannes Pertl</name>
+            <email>johannes.pertl@edu.fh-joanneum.at</email>
+            <url>https://github.com/JohannesPertl</url>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/msd</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+            <properties>
+                <picUrl>https://avatars1.githubusercontent.com/u/45853628</picUrl>
+            </properties>
+        </developer>
+        <developer>
+            <id>ulrikegartler</id>
+            <name>Ulrike Gartler</name>
+            <email>ulrike.gartler@edu.fh-joanneum.at</email>
+            <url>https://github.com/UlrikeGartler</url>
+            <organization>FH JOANNEUM GmbH</organization>
+            <organizationUrl>https://www.fh-joanneum.at/msd</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+    </developers>
 	
     <build>
         <plugins>
