@@ -1,9 +1,4 @@
-# Software Configuration Management #
+# 19-Abgabe03-Pertl-Gartler
 
-**EDUCATION Repository**
-
-## Test Automation with JUnit ##
-
-### Stack Exercise ###
-
-...
+Konfigurationsmanagement - Aufgabe3
+Test Automation with JUnit 4
