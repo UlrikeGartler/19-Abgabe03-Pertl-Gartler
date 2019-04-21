@@ -87,6 +87,14 @@ public class StringStackTest {
             s.push("Push item number " + i);
         }
     }
-
+    
+    /**
+     * tests if an IllegalStateException is thrown in the pop-method if the elementCount equals 0
+     */
+    @Test
+    public void testPopException() throws Exception {
+    	exceptionRule.expect(IllegalStateException.class);
+    	s.pop();	
+    }
 
 }
