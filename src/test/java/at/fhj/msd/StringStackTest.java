@@ -68,5 +68,16 @@ public class StringStackTest {
         s = new StringStack(0);
     }
 
+    /**
+     * tests if an Exception gets thrown when the stack overflows
+     */
+    @Test
+    public void testStackOverflow() throws Exception {
+        exceptionRule.expect(IllegalStateException.class);
+        for(int i = 1; i < 7; i++ ){
+            s.push("Push item number " + i);
+        }
+    }
+
 
 }
